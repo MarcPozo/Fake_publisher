@@ -1,0 +1,22 @@
+<launch>
+
+    <node name="publisher" pkg="fake_publisher" type="publisher.py" output="screen">
+    	<param name="a" value="[0.0, 0.0, 0.0, 1.0]" />
+    	<param name="b" value="[6.0, 0.0, 0.0, 1.0]" />
+    	<param name="c" value="[3.0, 0.0, 3.0, 1.0]" />
+    	<param name="d" value="[3.0, 3.0, 0.0, 1.0]" />
+    	<param name="e" value="[3.0, -3.0, 0.0, 1.0]" />
+    	<param name="f" value="[3.0, 0.0, -3.0, 1.0]" />
+    	<param name="g" value="[3.0, 0.0, 1.0, 1.0]" />
+    	<param name="h" value="[3.0, 1.0, 0.0, 1.0]" />
+
+    	<param name="r" value="[3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 1.0, 1.0]" />
+
+    	<param name="RSS" value="[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]" />
+
+	<param name="random" value="False" />
+	<param name="normal" value="False" />
+
+    </node>
+
+</launch>
